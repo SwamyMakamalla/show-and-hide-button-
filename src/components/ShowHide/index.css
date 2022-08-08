@@ -1,0 +1,61 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.bg-container {
+  background-image: linear-gradient(to right, #fa7257, #fc63a7);
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #ffffff;
+  font-size: 38px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.button {
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding: 8px;
+  border: #ffffff 1px solid;
+  padding-right: 8px;
+  color: #fc63a7;
+  font-weight: 600;
+  font-family: 'Roboto';
+  font-size: 12px;
+}
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.name-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 25px;
+}
+.name-card {
+  padding: 30px;
+  background-color: #fddddb;
+  border-radius: 5px;
+  border: #fddddb 1px solid;
+  text-align: center;
+}
+@media screen and (max-width: 767px) {
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
